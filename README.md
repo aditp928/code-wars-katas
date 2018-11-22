@@ -10,3 +10,4 @@ Objective is to expand my javascript and problem-solving skill-set.
 3. Array exercise
 4. Sum of all numbers
 5. List Filtering.
+6. Sorting through array and finds the min and max.
