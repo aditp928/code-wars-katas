@@ -6,5 +6,11 @@
 // filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
 const filter_list = () => {
-    
+    const inty = [];
+    for (x = 0; x < l.length; x++) {
+      if (Number.isInteger(l[x]) === true) {
+        inty.push(l[x]);
+      }
+    }
+    return inty;
   }
