@@ -17,3 +17,5 @@ Objective is to expand my javascript and problem-solving skill-set.
 6. Sorting through array and finds the min and max.
 
 7. Mumbling Kata.
+
+8. Find the Middle Character
