@@ -9,3 +9,17 @@
 // findNextSquare(121) --> returns 144
 // findNextSquare(625) --> returns 676
 // findNextSquare(114) --> returns -1 since 114 is not a perfect
+
+const findSquare = (sq) => {
+    
+    let integer = Math.sqrt(sq)
+
+    if (Number.isInteger(integer)){
+    let nextInt = integer + 1 
+
+    return nextInt * nextInt
+    }else{
+        return -1
+    }
+
+}
