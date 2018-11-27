@@ -21,3 +21,7 @@ Objective is to expand my javascript and problem-solving skill-set.
 8. Find the Middle Character
 
 9. Perfect Square
+
+10. First Non-repeating characters
+
+11. Printer Errors
