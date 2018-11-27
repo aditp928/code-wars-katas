@@ -21,5 +21,5 @@ const firstNonRepeatingLetter = (s) => {
     }
     if (!repeated[s[i].toLowerCase()]) return s[i];
   }
- 
+  return '';
 }
