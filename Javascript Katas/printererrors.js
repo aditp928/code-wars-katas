@@ -18,3 +18,4 @@
 // error_printer(s) => "8/22"
 
 
+const printerError = s => `${s.replace(/[a-m]/g,'').length}/${s.length}`
