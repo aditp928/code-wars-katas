@@ -25,3 +25,5 @@ Objective is to expand my javascript and problem-solving skill-set.
 10. First Non-repeating characters
 
 11. Printer Errors
+
+12. Sum of binary array
