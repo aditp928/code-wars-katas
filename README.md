@@ -29,3 +29,5 @@ Objective is to expand my javascript and problem-solving skill-set.
 12. Sum of binary array
 
 13. Merged String
+
+14. Pete the Baker
