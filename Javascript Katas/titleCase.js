@@ -18,5 +18,67 @@
 
 
 const titleCase = (title, minorWords) => {
-    return 
-}
+     
+    if (title===('')) {
+        return ""
+     }
+ 
+    let arrTitle=title.split(" ")
+    //console.log(arrTitle)
+    let arrMinor;
+    
+    if (minorWords){
+    arrMinor=minorWords.split(" ")
+    }else{
+        arrMinor=[];
+    }
+    //console.log(arrMinor)
+    
+    let arrLower=[];
+    let arr2=[];
+  
+  for (j=0;j<arrTitle.length;j++){
+      arrTitle[j]=arrTitle[j].split("")
+      
+      for (k=0;k<arrTitle[j].length;k++){
+          arrTitle[j][k]=arrTitle[j][k].toLowerCase()
+      }
+      arrLower.push(arrTitle[j].join(""))
+      console.log(arrLower)
+  }
+  
+  for (j=0;j<arrMinor.length;j++){
+      arrMinor[j]=arrMinor[j].split("")
+      
+      for (k=0;k<arrMinor[j].length;k++){
+          arrMinor[j][k]=arrMinor[j][k].toLowerCase()
+      }
+      arr2.push(arrMinor[j].join(""))
+      console.log(arr2)
+  }
+  
+  for (j=0;j<arrLower.length;j++){
+      if((arr2.indexOf(arrLower[j]))===-1){
+          
+        let word1=arrLower[j].split("")
+        word1[0]=word1[0].toUpperCase()
+        arrLower[j]=word1.join("")
+        console.log(arrLower[j])
+        
+          console.log(arrLower[j]+", this word should have upper case on 1st letter")
+      }else{
+          arrLower[j]
+          console.log(arrLower[j]+", all letters in this word stay lower case")
+      }
+    }
+      let firstWord=arrLower[0].split("")
+      firstWord[0]=firstWord[0].toUpperCase()
+      arrLower[0]=firstWord.join("")
+      console.log(firstWord)
+      
+     arrLower=arrLower.join(" ")
+    return arrLower
+ }
+    
+
+
