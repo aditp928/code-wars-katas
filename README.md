@@ -33,3 +33,5 @@ Objective is to expand my javascript and problem-solving skill-set.
 14. Pete the Baker
 
 15. List formatting 
+
+16. Title Case.
