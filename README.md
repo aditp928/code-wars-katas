@@ -34,4 +34,6 @@ Objective is to expand my javascript and problem-solving skill-set.
 
 15. List formatting 
 
-16. Title Case.
+16. Title Case
+
+17. The Supermarket Queue
