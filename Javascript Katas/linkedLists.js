@@ -16,14 +16,16 @@
 
 
 const Node =(data) => {
-   
+    this.data = data
+    this.next = null
   }
 
-  
-const length = (head) = {
-    
+
+const length = (head) => {
+    return head ? 1 + length(head.next) : 0
   }
   
   const count = (head, data) => {
-  
+    if (!head) return 0
+    return (head.data === data ? 1 : 0) + count(head.next, data)
   }
