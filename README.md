@@ -1,5 +1,4 @@
 # code-wars-katas
-
 Repository that contains all attempted and solved katas from the codewars.com website.
 
 Objective is to expand my javascript and problem-solving skill-set.
@@ -37,3 +36,5 @@ Objective is to expand my javascript and problem-solving skill-set.
 16. Title Case
 
 17. The Supermarket Queue
+
+18 Linked list.
