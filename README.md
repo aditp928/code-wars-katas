@@ -38,3 +38,5 @@ Objective is to expand my javascript and problem-solving skill-set.
 17. The Supermarket Queue
 
 18 Linked list.
+
+19. Calculating with Functions.
