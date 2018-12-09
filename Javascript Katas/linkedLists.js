@@ -13,8 +13,6 @@
 
 // The push()/Push() and buildOneTwoThree()/BuildOneTwoThree() functions do not need to be redefined.
 
-
-
 const Node =(data) => {
     this.data = data
     this.next = null
